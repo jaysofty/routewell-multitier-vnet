@@ -1,0 +1,37 @@
+RouteWell Region + SKU Availability Results
+================================================
+
+southafricanorth | UNKNOWN | UNKNOWN | Quota lookup failed
+southafricanorth | N/A | N/A | Insufficient quota: 0 available, 3 required
+southafricanorth | Standard_B1ls | FAILED | SkuNotAvailable
+southafricanorth | Standard_B1s | FAILED | SkuNotAvailable
+southafricanorth | Standard_B1ms | FAILED | SkuNotAvailable
+southafricanorth | Standard_F1 | FAILED | SkuNotAvailable
+southafricanorth | Standard_F1s | FAILED | SkuNotAvailable
+southafricanorth | Standard_A1_v2 | FAILED | SkuNotAvailable
+southafricanorth | Standard_D1_v2 | FAILED | Other deployment error
+southafricanorth | Standard_DS1_v2 | SUCCESS | Real VM deployment succeeded
+
+================================================
+SUCCESSFUL ROUTEWELL DEPLOYMENT TARGET
+================================================
+Region        : southafricanorth
+VM SKU        : Standard_DS1_v2
+Regional Quota: 0 vCPUs
+Required      : 3 vCPUs
+Architecture  : 3 x 1-vCPU VMs
+
+uksouth | UNKNOWN | UNKNOWN | Quota lookup failed
+uksouth | N/A | N/A | Insufficient quota: 0 available, 3 required
+uksouth | Standard_B1ls | FAILED | SkuNotAvailable
+uksouth | Standard_B1s | FAILED | SkuNotAvailable
+uksouth | Standard_B1ms | FAILED | SkuNotAvailable
+uksouth | Standard_F1 | FAILED | SkuNotAvailable
+uksouth | Standard_F1s | FAILED | SkuNotAvailable
+uksouth | Standard_A1_v2 | FAILED | SkuNotAvailable
+uksouth | Standard_D1_v2 | FAILED | SkuNotAvailable
+uksouth | Standard_DS1_v2 | FAILED | SkuNotAvailable
+westeurope | UNKNOWN | UNKNOWN | Quota lookup failed
+westeurope | N/A | N/A | Insufficient quota: 0 available, 3 required
+westeurope | Standard_B1ls | FAILED | LocationIneligible
+westeurope | Standard_B1s | FAILED | Resource Group creation failed
